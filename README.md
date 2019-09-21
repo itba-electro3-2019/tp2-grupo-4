@@ -9,7 +9,7 @@ Base para la resolución de los ejercicios:
   
   - Utilicen el gitignore para evitar subir cualquier cosa que no sean las imágenes del informe, el tex, el iverilog, los ejecutables y el makefile
   
-  - El código correspondiente al ejercicio y las cosas del informe van en carpetas separadas
+  - El código correspondiente al ejercicio y las cosas del informe van en carpetas separadas, el informe va dentro de la carpeta informe dentro de otra carpeta con el nombre del ejercicio y los codigos del ejercicio junto con su correspondiente test banch, makefile y ejecutable van en la carpeta que se encuentra con su nombre.
   
 Ayuda o cosas sobre los ejercicios que quieran aclarar para su correcto uso:
 
