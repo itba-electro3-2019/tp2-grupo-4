@@ -1,1 +1,28 @@
+%Preámbulo:
+\input{Extras/Preambulo.tex}
 
+
+%Empieza propiamente el documento
+\begin{document}
+
+	\newgeometry{} %Margenes default para la carátula
+	%Caratula:
+	\input{Extras/Caratula.tex}
+	%Indice:	
+	{\tableofcontents
+	\pagestyle{empty}
+	\cleardoublepage}	
+	\newpage
+	% cambio los margenes para el resto del documento
+	\newgeometry{total={6in, 9in}}
+	%Ejercicios:
+	\input{Ejercicio1/Ejercicio1.tex}
+	\input{Ejercicio2/Ejercicio2.tex}
+	\input{Ejercicio3/Ejercicio3.tex}
+	\input{Ejercicio4/Ejercicio4.tex}
+	\input{Ejercicio5/Ejercicio5.tex}
+	\input{Ejercicio6/Ejercicio6.tex}
+	\input{Ejercicio7/Ejercicio7.tex}
+	\input{Ejercicio8/Ejercicio8.tex}
+	
+\end{document}
