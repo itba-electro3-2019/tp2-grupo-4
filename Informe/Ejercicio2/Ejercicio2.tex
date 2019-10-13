@@ -1,1 +1,82 @@
 \section{Ejercicio 2}
+Vamos a desarrollar la compatibilidad entre compuertas NOR de las tecnologías LS, HC y HCT.
+
+\subsection{Introducción a las tecnologías}
+La tecnología LS es una aplicación de la anteriormente mencionada TTL pero utiliza transistores Schottky, en otras palabras usamos transistores con diodos Schottky.
+Mientras que la tecnología HC es una aplicación de lógica MOS, en la cual se utilizan MOS de alta velocidad, HC="High-speed CMOS". Cabe mencionar que esta es incompatible con la TTL.
+Por último, HCT es igual a la HC pero con una mejora en compatibilidad para la interconexión con tecnología TTL.
+Se tiene que las distintos tipos de compuertas tiene utilizadas tiene las siguientes características:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\diagbox{Parámetros}{Tecnologías} & LS & HC & HCT\\
+		\hline
+		$V_{IL_{max}}$ & 0.8 V & 1.35 V & 0.8 V\\
+		\hline
+		$V_{IH_{min}}$ & 2 V & 3.2 V & 2 V\\
+		\hline
+		$V_{OL_{max}}$ & 0.5 V & 0.26 V & 0.26 V\\
+		\hline
+		$V_{OH_{min}}$ & 2.7 V & 3.98 V & 3.98 V\\
+		\hline
+		Output current & 8 mA & 4 mA& 4 mA\\
+		\hline
+		Input current & 0.1 mA & 1 $\mu A$ & 1 $\mu A$\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsection{Compatibilidad entre LS y HC}
+Se conecto la salida del LS al HC y luego la salida del HC al LS. Los resultados obtenidos fueron:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\diagbox{Parámetros}{Conexión} & LS-HC & HC-LS\\
+		\hline
+		$V_{IL_{max}}$ & & \\
+		\hline
+		$V_{IH_{min}}$ & & \\
+		\hline
+		$V_{OL_{max}}$ & & \\
+		\hline
+		$V_{OH_{min}}$ & & \\
+		\hline
+		$NM_{L}$ & & \\
+		\hline
+		$NM_{H}$ & & \\
+		\hline
+	\end{tabular}
+\end{table}
+
+%%Falta conclusion
+
+\subsection{Compatibilidad entre LS y HCT}
+Se conecto la salida del LS al HCT y luego la salida del HCT al LS. Los resultados obtenidos fueron:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\diagbox{Parámetros}{Conexión} & LS-HC & HC-LS\\
+		\hline
+		$V_{IL_{max}}$ & & \\
+		\hline
+		$V_{IH_{min}}$ & & \\
+		\hline
+		$V_{OL_{max}}$ & & \\
+		\hline
+		$V_{OH_{min}}$ & & \\
+		\hline
+		$NM_{L}$ & & \\
+		\hline
+		$NM_{H}$ & & \\
+		\hline
+	\end{tabular}
+\end{table}
+
+%%Falta conclusion
+
+\subsection{Fanout}
+El fanout es un parámetro que indica la cantidad de compuertas lógicas de una misma tecnología que pueden conectarse en paralelo a la salida de otra compuerta, determinar esté número es esencial debido a que si uno se pasa de está, la tensión de salida, así como el comportamiento de las compuertas a la salida de esta puede dejar de ser el deseado. De la información obtenida podemos concluir que 
+%%%Falta concluir respecto al numero de Fanout junto con el tema compatibilidades
