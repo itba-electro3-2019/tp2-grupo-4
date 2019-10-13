@@ -1,1 +1,192 @@
 \section{Ejercicio 1}
+
+\subsection{Parámetros de las compuertas lógicas}
+En esta sección desarrollaremos sobre los parámetros esenciales de las compuertas lógicas y estos son los siguientes:
+
+\subsubsection{Tensión de salida y entrada}
+Cuando se realizan compuertas lógicas vamos a poder establecer un rango de tensión de entrada donde la compuerta va a reconocer como un 1 lógico y otra para el cual va a tomar como un 0. Para esos mismos rangos vamos a poder definir un rango de salida dada cuando se encuentra en estado alto y otro para cuando está en estado bajo.
+Los parámetros van a llamarse:
+\begin{itemize}
+	\item $V_{IL}$: Tensión de entrada considerada un 1 lógico
+	\item $V_{IH}$: Tensión de entrada considerada un 0 lógico
+	\item $V_{OL}$: Tensión de salida considerando que envía un 0 lógico
+	\item $V_{OH}$: Tensión de entrada considerando que envía un 1 lógico
+\end{itemize}
+La parte más importante de estos son:
+\begin{itemize}
+	\item $V_{IL_{max}}$
+	\item $V_{IH_{min}}$
+	\item $V_{OL_{max}}$
+	\item $V_{OH_{min}}$
+\end{itemize}
+Estos son obtenidos al realizar el siguiente esquema:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{Ejercicio1/Tensiones.png}
+	\caption{High level y low level input y output}
+\end{figure}
+
+\subsubsection{Noise Margin}
+Para determinar los márgenes de ruido se realizan las siguientes cuentas:
+$$NM_{L}=|V_{OL}-V_{IL}|$$
+$$NM_{H}=|V_{OH}-V_{IH}|$$
+
+\subsubsection{Tiempo de propagación}
+Son los tiempos en que tarda en cambiar la salida acorde a lo recibido en la entrada en otras palabras, es lo que tarda en cambiar la salida desde el momento en que recibió la entrada. Estos se miden como se va a visualizar a continuación:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Ejercicio1/Propagacion.png}
+	\caption{Tiempos de propagación}
+\end{figure}
+Como se puede observar, hay dos tiempos de propagación, una de alto a bajo y el otro de bajo a alto.
+
+\subsubsection{Tiempo de transición}
+Es el Tiempo que le toma cambiar la salida de alta a bajo y viceversa, estas se definen como fall time y rise time. Se definen de la manera ilustrada en el gráfico:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Ejercicio1/Propagacion.png}
+	\caption{Tiempos de propagación}
+\end{figure}
+
+\subsubsection{Corriente de salida}
+Este parámetro es importante de definir dado que define el valor del fanout de la misma, dado que posea una carga solo capacitiva podemos definir la corriente como:
+$$I=C\frac{dV_c}{dt}$$ 
+
+\subsection{Tecnologías de las compuertas lógicas}
+A continuación, hablaremos sobre los distintos tipos de tecnología así e ilustraremos los valores obtenidos de los parámetros de las arquitecturas aplicadas de cada tecnología. Estas son las siguientes:
+
+\subsubsection{RTL}
+La tecnología RTL consiste en conectar resistencias y transistores BJT para forma una compuerta lógica, donde la resistencia va a ser usado para polarizar el BJT. En la figura \ref{fig:eje1_1}, se encuentra la implementación de una compuerta NOT.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.2\textwidth]{Ejercicio1/RTL.png}
+	\caption{NOT RTL}
+	\label{fig:eje1_1}
+\end{figure}
+De la misma se obtuvieron los siguientes parámetros:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Parámetros & Valor sin carga & Valor con carga\\
+		\hline
+		$V_{IH_{max}}$ & & \\
+		\hline
+		$V_{IL_{min}}$ & & \\
+		\hline
+		$V_{OH_{max}}$ & & \\
+		\hline
+		$V_{OL_{min}}$ & & \\
+		\hline
+		Noise Margin & & \\
+		\hline
+		Propagation delay High-to-Low & & \\
+		\hline
+		Propagation delay Low-to-High & & \\
+		\hline
+		Fall time & & \\
+		\hline
+		Rise time & & \\
+		\hline
+		Output current & & \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{TTL}
+La tecnología TTL consiste en conectar resistencias y transistores BJT para forma una compuerta lógica, donde vamos a polarizar el BJT que define la salida con otro BJT. En la figura \ref{fig:eje1_2}, se encuentra la implementación de una compuerta NOT.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.2\textwidth]{Ejercicio1/TTL.png}
+	\caption{NOT TTL}
+	\label{fig:eje1_2}
+\end{figure}
+De la misma se obtuvieron los siguientes parámetros:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Parámetros & Valor sin carga & Valor con carga\\
+		\hline
+		$V_{IH_{max}}$ & & \\
+		\hline
+		$V_{IL_{min}}$ & & \\
+		\hline
+		$V_{OH_{max}}$ & & \\
+		\hline
+		$V_{OL_{min}}$ & & \\
+		\hline
+		Noise Margin & & \\
+		\hline
+		Propagation delay High-to-Low & & \\
+		\hline
+		Propagation delay Low-to-High & & \\
+		\hline
+		Fall time & & \\
+		\hline
+		Rise time & & \\
+		\hline
+		Output current & & \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{MOS}
+La tecnología MOS consiste en conectar resistencias y transistores MOS para forma una compuerta lógica. En la figura \ref{fig:eje1_3}, se encuentra la implementación de una compuerta NOT.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.2\textwidth]{Ejercicio1/MOS.png}
+	\caption{NOT MOS}
+	\label{fig:eje1_3}
+\end{figure}
+De la misma se obtuvieron los siguientes parámetros:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Parámetros & Valor sin carga & Valor con carga\\
+		\hline
+		$V_{IH_{max}}$ & & \\
+		\hline
+		$V_{IL_{min}}$ & & \\
+		\hline
+		$V_{OH_{max}}$ & & \\
+		\hline
+		$V_{OL_{min}}$ & & \\
+		\hline
+		Noise Margin & & \\
+		\hline
+		Propagation delay High-to-Low & & \\
+		\hline
+		Propagation delay Low-to-High & & \\
+		\hline
+		Fall time & & \\
+		\hline
+		Rise time & & \\
+		\hline
+		Output current & & \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsubsection{Comparación entre tecnologías}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\diagbox{Parámetros}{Tecnologías} & RTL	& TTL & MOS\\
+		\hline
+		$V_I$ & & & \\
+		\hline
+		$V_O$ & & & \\
+		\hline
+		Noise Margin & & & \\
+		\hline
+		Propagation time & & & \\
+		\hline
+		Transition time & & & \\
+		\hline
+		Output current & & & \\
+		\hline
+	\end{tabular}
+\end{table}
