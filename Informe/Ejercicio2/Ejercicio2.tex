@@ -28,55 +28,33 @@ Se tiene que las distintos tipos de compuertas tiene utilizadas tiene las siguie
 \end{table}
 
 \subsection{Compatibilidad entre LS y HC}
-Se conecto la salida del LS al HC y luego la salida del HC al LS. Los resultados obtenidos fueron:
+Se conecto la salida del LS al HC y luego la salida del HC al LS. Los resultados obtenidos del rango de entrada invalida fueron:
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\diagbox{Parámetros}{Conexión} & LS-HC & HC-LS\\
-		\hline
-		$V_{IL_{max}}$ & & \\
-		\hline
-		$V_{IH_{min}}$ & & \\
-		\hline
-		$V_{OL_{max}}$ & & \\
-		\hline
-		$V_{OH_{min}}$ & & \\
-		\hline
-		$NM_{L}$ & & \\
-		\hline
-		$NM_{H}$ & & \\
+		\diagbox{Parámetro}{Conexión} & LS-HC & HC-LS\\
+		Entrada invalida[V] & 0.7 a 0.8 & 2.03 a 2.15\\
 		\hline
 	\end{tabular}
 \end{table}
 
-%%Falta conclusion
+Podemos concluir que para el caso del LS-HC el problema presentado es que el rango de entrada invalida se encuentra dentro del rango de entrada interpretada como 0 por el LS, lo cual implica que hay un problema de incompatibilidad. Mientras que en el caso HC-LS, esté se encuentra dentro de la zona prohibida de la compuerta HC y por lo tanto es valido.
 
 \subsection{Compatibilidad entre LS y HCT}
-Se conecto la salida del LS al HCT y luego la salida del HCT al LS. Los resultados obtenidos fueron:
+Se conecto la salida del LS al HCT y luego la salida del HCT al LS. Los resultados obtenidos del rango de entrada invalida fueron:
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
-		\diagbox{Parámetros}{Conexión} & LS-HC & HC-LS\\
-		\hline
-		$V_{IL_{max}}$ & & \\
-		\hline
-		$V_{IH_{min}}$ & & \\
-		\hline
-		$V_{OL_{max}}$ & & \\
-		\hline
-		$V_{OH_{min}}$ & & \\
-		\hline
-		$NM_{L}$ & & \\
-		\hline
-		$NM_{H}$ & & \\
+		\diagbox{Parámetro}{Conexión} & LS-HC & HC-LS\\
+		Entrada invalida[V] & 0.84 a 0.92 & 0.83 a 0.93\\
 		\hline
 	\end{tabular}
 \end{table}
 
-%%Falta conclusion
+No se encuentran problemas dado que tanto para la conexión LS-HCT y HCT-LS están dentro del rango de zona prohibida de la primera compuerta enchufada.
 
 \subsection{Fanout}
-El fanout es un parámetro que indica la cantidad de compuertas lógicas de una misma tecnología que pueden conectarse en paralelo a la salida de otra compuerta, determinar esté número es esencial debido a que si uno se pasa de está, la tensión de salida, así como el comportamiento de las compuertas a la salida de esta puede dejar de ser el deseado. De la información obtenida podemos concluir que 
-%%%Falta concluir respecto al numero de Fanout junto con el tema compatibilidades
+El fanout es un parámetro que indica la cantidad de compuertas lógicas de una misma tecnología que pueden conectarse en paralelo a la salida de otra compuerta, determinar esté número es esencial debido a que si uno se pasa de está, la tensión de salida, así como el comportamiento de las compuertas a la salida de esta puede dejar de ser el deseado. De la información obtenida podemos concluir que gracias a su al bajo valor del input current obtendremos un alto fanout siempre que se utilicen las familias HC y HCT, al mismo tiempo debido a que la familia LS posee el mayor output current está nos va a permitir un fanout de 8000 si se realiza LS-HC o LS-HCT mientras que un HC-LS o HCT-LS nos da un fanout de 40.
+Se terminan recomendando siempre conectar compuertas de la misma familia en caso contrario interconectar LS con HCT y de utilizar muchas compuertas en paralelo preferentemente utilizar una conexión LS-HCT.
