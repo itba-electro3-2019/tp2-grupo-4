@@ -110,19 +110,19 @@ De la misma se obtuvieron los siguientes parámetros:
 		\hline
 		Parámetros & Valor sin carga & Valor con carga\\
 		\hline
-		$V_{IL_{max}}$ & & \\
+		$V_{IL_{max}}$ & 402 mV & 387 mV\\
 		\hline
-		$V_{IH_{min}}$ & & \\
+		$V_{IH_{min}}$ & 1.62 V & 1.62 V\\
 		\hline
-		$V_{OL_{max}}$ & & \\
+		$V_{OL_{max}}$ & 45 mV & 45 mV\\
 		\hline
-		$V_{OH_{min}}$ & & \\
+		$V_{OH_{min}}$ & 4.97 V & 4.97 V\\
 		\hline
-		$NM_{L}$ & & \\
+		$NM_{L}$ & 357 mV & 342 mV\\
 		\hline
-		$NM_{H}$ & & \\
+		$NM_{H}$ & 3.35 V & 3.35 V\\
 		\hline
-		Propagation delay High-to-Low & <13 nSeg & <13 nSeg\\
+		Propagation delay High-to-Low & $<13$ nSeg & $<13$ nSeg\\
 		\hline
 		Propagation delay Low-to-High & 212 nSeg & 896 nSeg\\
 		\hline
@@ -130,7 +130,7 @@ De la misma se obtuvieron los siguientes parámetros:
 		\hline
 		Rise time & 192 nSeg & 2.35 $\mu Seg$\\
 		\hline
-		Output current & 5 mA & \\
+		Output current & 5 mA & 1.7 mA\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -150,19 +150,19 @@ De la misma se obtuvieron los siguientes parámetros:
 		\hline
 		Parámetros & Valor sin carga & Valor con carga\\
 		\hline
-		$V_{IL_{max}}$ & & \\
+		$V_{IL_{max}}$ & 1.91 V & 1.98 V\\
 		\hline
-		$V_{IH_{min}}$ & & \\
+		$V_{IH_{min}}$ & 2.62 V & 2.64 V\\
 		\hline
-		$V_{OL_{max}}$ & & \\
+		$V_{OL_{max}}$ & 12 mV & 23 mV\\
 		\hline
-		$V_{OH_{min}}$ & & \\
+		$V_{OH_{min}}$ & 4.96 V & 4.94 V\\
 		\hline
-		$NM_{L}$ & & \\
+		$NM_{L}$ & 1.89 V & 1.78 V\\
 		\hline
-		$NM_{H}$ & & \\
+		$NM_{H}$ & 2.34 V & 2.3 V\\
 		\hline
-		Propagation delay High-to-Low & <13 nSeg & 19 nSeg\\
+		Propagation delay High-to-Low & $<13$ nSeg & 19 nSeg\\
 		\hline
 		Propagation delay Low-to-High & 80 nSeg & 707 nSeg\\
 		\hline
@@ -170,7 +170,7 @@ De la misma se obtuvieron los siguientes parámetros:
 		\hline
 		Rise time & 158 nSeg & 2.18 $\mu Seg$\\
 		\hline
-		Output current & 5mA & \\
+		Output current & 5mA & 523 $\mu A$\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -182,19 +182,24 @@ De la misma se obtuvieron los siguientes parámetros:
 		\hline
 		\diagbox{Parámetros}{Tecnologías} & RTL	& TTL & MOS\\
 		\hline
-		$V_I$ & & & \\
+		$V_{IL_{max}}$ & Aprox. 1.7 V & Aprox. 1.7 V & Aprox 2 V\\
 		\hline
-		$V_O$ & & & \\
+		$V_{IH_{min}}$ & Orden 100 mV & Aporx. 2 veces el RTL & Apox. 2.7 V\\
 		\hline
-		$NM_{L}$ & & & \\
+		$V_{OH_{min}}$ & Casi Vcc & Casi Vcc &  Casi Vcc\\
 		\hline
-		$NM_{H}$ & & & \\
+		$V_{OL_{max}}$ & Orden 100mV & Orden 10mV  & Orden mV\\
 		\hline
-		Propagation time & & & \\
+		\multirow{2}{*}{Noise Margin} & Alto $NM_{H}$ & \multirow{2}{*}{Igual al RTL} & Menor $NM_{H}$ al resto\\
+		 & bajo $NM_{L}$ &  & Medio $NM_{L}$\\
 		\hline
-		Transition time & & & \\
+		Propagation time & Orden $\mu Seg$ & Orden 100  nSeg & Orden 10 nSeg\\
 		\hline
-		Output current & & & \\
+		Transition time & Orden $\mu Seg$ & Orden 100 nSeg & Orden de los nSeg\\
+		\hline
+		Output current & Orden 100 $\mu A$ & Orden mA & Alrededor 0.5 mA\\
 		\hline
 	\end{tabular}
 \end{table}
+
+Podemos concluir que dado que se quiera realizar un bajo consumo cuando uno se encuentre en estado bajo, es mejor utilizar compuertas MOS mientras que si se le da importancia a la cantidad de compuertas a conectarle atrás de está, es conveniente elegir TTL. Siempre que el problema de ruido no se encuentre considerablemente presente en bajo, las compuertas RTL y TTL son la mejor opción, pero si tenemos un presencia más uniforme de ruido tanto en estado bajo como en alta conviene la MOS. Por último, en cuanto a velocidad se destaca las MOS y en cuanto a niveles lógicos de entrada, la que requiere de menor tensión es la compuerta RTL.
