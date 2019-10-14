@@ -65,4 +65,10 @@ Una manera sencilla de aplicar un level shifter puede verse en la figura \ref{fi
 
 El problema se encuentra solucionado dado que ahora al OR CMOS le va a llegar un $V_{OL_{max}}=2.7+0.7=3.4$ aproximadamente, esto es mayor a 3.15 V solucionando completamente el problema encontrado.
 
-%%Falta agregar algun grafico comparando antes de utilizar la solucion y despues
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Ejercicio5/Comparacion.png}
+	\caption{Comparación entre sin solución y con solución}
+\end{figure}
+
+Podemos concluir, que a pesar de haber aumentado el $V_{IL_{max}}$ y $V_{OL_{max}}$ logramos disminuir los $V_{IH_{min}}$ y $V_{OH_{min}}$. Además, una mayor pendiente lo que significa que el cambio producido por la entrada actúa más rápido que sin haber aplicado la solución, en el sentido de que menores cambios de tensión en la entrada producen mayores cambios en la salida.
