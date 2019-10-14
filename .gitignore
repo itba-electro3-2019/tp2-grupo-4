@@ -9,3 +9,4 @@ Informe/*.gz
 Informe/*.toc
 Informe/*.bbl
 Informe/*.blg
+.DS_Store
