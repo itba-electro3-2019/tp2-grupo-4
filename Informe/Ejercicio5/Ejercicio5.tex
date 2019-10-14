@@ -24,8 +24,8 @@ El resultado obtenido fue:
 	\caption{Resultados de los circuitos}
 \end{figure}
 
-En conclusión, la entrada flotante del circuito TTL produjo una salida alta. Esto significa que por default tenemos una entrada alta en el mismo y esto se debe a que, %Falta razon del porque .
-Mientras que en el caso del circuito CMOS, obtenemos que la salida es baja. Esto significa que por default la entrada flotante esta conectada a tierra. Esto se debe a que, %Falta explicacion.
+En conclusión, la entrada flotante del circuito TTL produjo una salida alta. Esto significa que por default tenemos una entrada alta en el mismo y esto se debe a que, los circuitos de la familia LS utilizan la tecnología TTL donde poseen un pull up interno de forma tal que, al no enviar entrada, el transistor se encuentra igualmente polarizado y como consecuencia es como si recibiera una entrada high. Esto se debe a que es necesario que el ruido tenga una amplitud considerablemente grande para poder activar la compuerta.\\
+Mientras que en el caso del circuito CMOS, obtenemos que la salida oscila a una frecuencia de 50 Hz. Esto se debe a que el transistor CMOS presenta una alta impedancia de entrada, lo que vuelve cualquier entrada flotante susceptible al ruido y este es lo suficientemente fuerte como para entrar en la zona lineal de operación de esta.
 
 \subsection{Compatibilidad entre TTL y CMOS}
 A continuación vamos a ver los problemas presentados en el circuito de la figura \ref{fig:eje5_1}, así como los problemas que está presenta.
