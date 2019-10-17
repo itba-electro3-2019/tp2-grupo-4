@@ -1,7 +1,7 @@
 \section{Ejercicio 6}
 
 
-Los Latches y los flip-flops son elementos utilizados en el alamcenaje de información. Cada uno puede alamacenar un bit de información. La diferencia principal entre ellos es que el latch chequea continuamente la entrada, cambiando la salida en caso de algun cambio. Por otro lado, el flip-flop puede pensarse como la integración de un latch y un cicruito que responde a un clock, cambiando la salida no solo cuando la entrada varía, sino cuando incide un flanco del clock. En otras palabras, los latches son circuitos asincrónicos mientras que los flip-flops son circuitos sincrónicos. En general un flip-flop está compuesto por muchas más compuertas lógicas que un latch, por ende se esperaría que los tiempos de respuesta sean distintos. 
+Los Latches y los flip-flops son elementos utilizados en el alamcenaje de información. Cada uno puede guardar un bit de información. La diferencia principal entre ellos es que el latch chequea continuamente la entrada, cambiando la salida en caso de alguna variaci\'on en la entrada. Por otro lado, el flip-flop puede pensarse como la integración de un latch y un cicruito que responde a un clock, cambiando la salida no solo cuando la entrada varía, sino cuando incide un flanco del clock. En otras palabras, los latches son circuitos asincrónicos mientras que los flip-flops son circuitos sincrónicos. En general un flip-flop está compuesto por muchas más compuertas lógicas que un latch, por ende se esperaría que los tiempos de respuesta sean distintos. 
 
 
 
@@ -16,6 +16,7 @@ Un tipo común de latches es el latch $SR$, por set-reset. Su circuito es el sig
 	\caption{Latch SR}
 \end{figure}
 
+Su tabla de verdad es como sigue:
 
 
 \subsection{Flip-flop D}
@@ -44,8 +45,10 @@ En la siguiente tabla se resumen los resultaods obtenidos, as\'i como los vaores
 \multicolumn{1}{c}{}           & \multicolumn{1}{c}{Hold time (ns)} & \multicolumn{1}{c}{Set-up time (ns)} & Propagation Delay (ns) \\
 \hline
 Latch SR comercial (HC 373)    & 10                                 & 10                                   & 15-30                  \\
-Latch SR implemenado           &                                    &                                      &                        \\
+Latch SR implemenado           & 19                              &   17                                   &  44                \\
 Flip-Flop D comercial (CD4013) & 2-5                                & 10-20                                & 65-130                 \\
-Flip-Flop D implementado       &                                    &                                      &                        \\  \hline
+Flip-Flop D implementado       &    
+
+                                &                                      &                        \\  \hline
 \end{tabular}
 \end{table}
