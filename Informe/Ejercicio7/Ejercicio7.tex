@@ -30,17 +30,48 @@ La máxima velocidad de operación del circuito, será entonces directamente dep
 
 \subsection{Mediciones}
 
+Para el contador asincrónico se midió la propagación desde el clock a cada flip-flop y por último la propagación total(hasta $Q_3$):
+
 \begin{table}[H]
-\begin{tabular}{llll}\hline
-\multicolumn{1}{c}{}           & \multicolumn{1}{c}{Hold time (ns)} & \multicolumn{1}{c}{Set-up time (ns)} & Propagation Delay (ns) \\
-\hline
-Contador asicr\'onico comercial ()    &                                &                                & $80-160$                  \\
-Contador asincr\'onico implementado        &                                    &                                      &                        \\
-Contador sincr\'onico comercial (MC14040) &                             &                          &                 \\
-Contador sincr\'onico implementado   &                                    &                                      &                        \\  \hline
+\centering
+\begin{tabular}{lll}\hline
+Propagación $CLK$-$Q_1$($ns$) & Propagacion $Q_1$-$Q_2$($ns$) & Propagación $Q_2$-$Q_3$($ns$)\\ \hline
+$90$  &       $177$ & $250$  \\ \hline
+
 \end{tabular}
 \end{table}
 
+En la siguiente figuro puede verse el tiempo de propagación entre el clock y el primer flip-flop
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Ejercicio7/Recursos/propagacion_asincronico.png}
+	\caption{Propagacion asincronico}
+\end{figure}
+
+A continuación se adjunta una captura de osciloscopio que contiene tanto la señal de clock (canal 1) y las salidas del primero, segundo y tercer flip-flop (canal 2, 4, y 3 respectivamente). 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Ejercicio7/Recursos/senales_asincronico.png}
+	\caption{Propagacion asincronico}
+\end{figure}
+
+Puede verse como cada salida ocurre con el retraso de clock correpondiente a cada flip-flop, representando un 1 binario en el orden adecuado del contador. Este diagrama de tiempo es una muy buena manera de ver cuando se prende cada flip-flip y comprender como se realiza el proceso de conteo. Cuando un flanco acendente de reloj incide se prende el primer flip-flop, luego al siguiente lo hace el segundo, y dos después el tercero, confirmando el funcionamiento antes explicado. En este caso se sacrifica velocidad de funcionamiento ya que se debe esperar a cada flanco de clock y que el mismo se propague para realizar el conteo. Por ende la máxima velocidad de operación está dada por ese tiempo de propagación, para el circuito realizado $250ns$.
+
+
 Es importante denotar que para el contador asincr\'onico el tiempo de propagaci\'on que brinda el fabricante es de la salida $Q_n$ a $Q_{n+1}$. 
+\begin{table}[H]
+\centering
+\begin{tabular}{ll}\hline
+\multicolumn{1}{c}{}           & Propagation Delay (ns) \\ \hline
+Contador asicr\'onico comercial     &            $80-160$  \\
+Contador asincr\'onico implementado        &       $220$  \\
+Contador sincr\'onico comercial (MC14040) &         $25-75$ \\
+Contador sincr\'onico implementado   &               \\  \hline
+\end{tabular}
+\end{table}
+
+
 \subsection{Conclusiones}
 
