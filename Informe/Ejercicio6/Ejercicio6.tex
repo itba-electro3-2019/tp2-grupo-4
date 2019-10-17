@@ -17,6 +17,12 @@ Un tipo común de latches es el latch $SR$, por set-reset. Su circuito es el sig
 
 Su tabla de verdad es como sigue:
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Ejercicio6/Recursos/tablalatch}
+	\caption{Tabla de verdad Latch SR}
+\end{figure}
+
 
 \subsection{Flip-flop D}
 Un tipo de flip-flop es el flip-flop tipo D, cuya salida copia la entrada $D$ cuando llegue un flanco de clock (puede configurarse el circuito para que sea ascendente o descendente). 
@@ -32,7 +38,7 @@ Un dispositivo de este estilo puede dividirse en dos partes, una que responde a 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Ejercicio6/Recursos/ffD_final}
-	\caption{Gráfico flip-flop D}
+	\caption{Circuito l\'ogico flip-flop D}
 \end{figure}
 
 
@@ -42,7 +48,7 @@ Para la medicion del Latch SR se alimentó el circuito con $5V_{DC}$ mientras qu
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Ejercicio6/Recursos/senales_ffD.png}
-	\caption{Circuito flip-flop D}
+	\caption{Diagram de tiempo flip-flop D}
 \end{figure}
 
 En el anterior diagrama, puede verse claramente el comportamiento del flip-flop tipo D. Recien cuando aparece un flanco positivo del reloj y la entrada al circuito es positiva también se observa un salida al circuito. Luego cuando la entrada baja a $0$, y nuevamente aparec un flanco de clock lo hace a su vez la salida. 
@@ -53,7 +59,7 @@ Uno de los parámetros que se midió es el tiempo de propagación desde el clock
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Ejercicio6/Recursos/propagacion_ffD.png}
-	\caption{Propagacion flip-flop D}
+	\caption{Propagaci\'on flip-flop D}
 \end{figure}
 
 

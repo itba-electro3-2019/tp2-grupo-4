@@ -28,7 +28,7 @@ Un contador sincr\'onico posible es el siguiente:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Ejercicio7/Recursos/sincronico}
-	\caption{Contador asincrónico}
+	\caption{Contador sincr\'onico}
 \end{figure}
 
 el ciruito contiene 3 flip-flops T, una compuerta And de dos entradas y es activado por un flanco descendente del clock. Siempre que incida un  flanco descendente se prende la salida del prier flip-flop, mientras que la salida del segundo es igual a 1 siempre que $Q_0$ sea igual a 1 e incida el flanc corespondiente. Luego $Q_2$ ser\'a igual a 1 cuando se reciba un clock corrspondiente y tanto $Q_0$ como $Q_1$ sean positivas y as\'i se logra contar hacia arriba. Para este circuito, se esperan tiempos de propagaci\'on menores que en el contador asincr\'onico y por ende una velocidad de operaci\'on mayor. 
