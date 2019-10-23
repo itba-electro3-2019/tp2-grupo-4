@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Vcc Pin=Alimentacion-1
+Removed Pin From Net: NetName=GND Pin=Alimentacion-2
+Added Pin To Net: NetName=GND Pin=Alimentacion-1
+Added Pin To Net: NetName=Vcc Pin=Alimentacion-2
+Added Room: Name=Esquematico
