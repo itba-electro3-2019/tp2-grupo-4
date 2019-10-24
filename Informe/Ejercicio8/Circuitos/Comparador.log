@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 02:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 11:37
 entering extended mode
 **./Comparador.tex
 (Comparador.tex
@@ -834,79 +834,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
-\realshift=\dimen281
-\realshift=\dimen282
-\realshift=\dimen283
-\realshift=\dimen284
-\realshift=\dimen285
-\realshift=\dimen286
-\realshift=\dimen287
-\realshift=\dimen288
-\realshift=\dimen289
-\realshift=\dimen290
-\realshift=\dimen291
-\realshift=\dimen292
-\realshift=\dimen293
-\realshift=\dimen294
-\realshift=\dimen295
-\realshift=\dimen296
-Missing character: There is no ( in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no ; in font nullfont!
-\realshift=\dimen297
 
 [1
 
 {C:/Users/germa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Comparador.aux) ) 
 Here is how much of TeX's memory you used:
- 35504 strings out of 492895
- 839619 string characters out of 3133479
- 965138 words of memory out of 3000000
- 39081 multiletter control sequences out of 15000+200000
- 533747 words of font info for 30 fonts, out of 3000000 for 9000
+ 34844 strings out of 492895
+ 822076 string characters out of 3133479
+ 927351 words of memory out of 3000000
+ 38412 multiletter control sequences out of 15000+200000
+ 536504 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,69p,433b,1241s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,69p,433b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on Comparador.pdf (1 page, 40909 bytes).
+mbsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Comparador.pdf (1 page, 50447 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

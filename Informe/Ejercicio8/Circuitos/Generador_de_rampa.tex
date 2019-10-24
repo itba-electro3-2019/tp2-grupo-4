@@ -71,11 +71,11 @@
 \draw (u1 con) -- ++ (-1,0) to[C,l=$0.1\,uf$,-*] (4.5,0);
 \draw (u1 rst) ++ (-1,0) -- (4.5,6); % RST
 
-\draw (10,4) node[pnp](pnp){}; % THR
+\draw (11,4) node[pnp](pnp){}; % THR
 \draw (u1 dis) ++ (-1.5,0) -- ++ (0,-2.5) -- ++ (5,0) -| (pnp.C); % DIS
-\draw (pnp.E) to[R, a_=$R_1$,l=$150\,\Omega$] (10,5) to [vR,a=$R_2$,l=$5K\Omega$] (10,6) -- (0,6);
-\draw (pnp.B) -- ++ (-0.5,0) to[R,a=$R_3$,l=$10K\,\Omega$,-*] (9.09,6);
-\draw (pnp.B) -- ++ (-0.5,0) to[R,a=$R_4$,l=$20K\Omega$] (9.09,2);
+\draw (pnp.E) to[R, a_=$R_1$,l=$150\,\Omega$] (11,5) to [vR,a=$R_2$,l=$5K\Omega$] (11,6) -- (0,6);
+\draw (pnp.B) -- ++ (-1.5,0) to[R,a=$R_3$,l=$10K\,\Omega$,-*] (9.09,6);
+\draw (pnp.B) -- ++ (-1.5,0) to[R,a=$R_4$,l=$20K\Omega$] (9.09,2);
 \draw (9.09,2) node[sground]{};
 \draw (10,1.5) to[C, a=$C_1$,l=$220\,pf$,*-] (10,0) -- (0,0);
 \draw (10,1.5) -- ++ (2,0);
@@ -87,7 +87,8 @@
  \draw (6.5,0) node[circ]{};
  \draw (8.5,0) node[circ]{};
  \draw (0,6) node[circ](Vcc){};
- \draw (pnp.B) ++ (-0.5,0) node[circ]{};
+ \draw (pnp.B) ++ (-1.5,0) node[circ]{};
+ \draw (11,1.5) node[circ]{};
  \draw (0,0) node[circ]{};
  \draw (6.5,6) node[circ]{};
  \draw (u1 tri) ++ (-1.5,0) node[circ]{}; % TRI

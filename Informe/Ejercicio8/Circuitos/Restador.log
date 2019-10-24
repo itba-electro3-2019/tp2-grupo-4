@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 03:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 11:14
 entering extended mode
-**./Generador_de_rampa.tex
-(Generador_de_rampa.tex
+**./Restador.tex
+(Restador.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/standalone\standalone.cls"
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
@@ -679,58 +679,34 @@ Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator.sty"
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pbox\pbox.sty"
-Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+(Restador.aux)
+\openout1 = `Restador.aux'.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count293
-\calc@Bcount=\count294
-\calc@Adimen=\dimen279
-\calc@Bdimen=\dimen280
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count295
-\calc@Cskip=\skip57
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\pb@xlen=\skip58
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/relsize\relsize.sty"
-Package: relsize 2013/03/29 ver 4.1
-)
-(Generador_de_rampa.aux)
-\openout1 = `Generador_de_rampa.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
  ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen281
+\scratchcounter=\count293
+\scratchdimen=\dimen279
 \scratchbox=\box67
-\nofMPsegments=\count297
-\nofMParguments=\count298
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen282
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen280
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -855,46 +831,35 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <5> on input line 5.
+\realshift=\dimen281
+\realshift=\dimen282
 \realshift=\dimen283
 \realshift=\dimen284
-\realshift=\dimen285
-\realshift=\dimen286
-\realshift=\dimen287
-\realshift=\dimen288
-\realshift=\dimen289
-\realshift=\dimen290
-\realshift=\dimen291
-\realshift=\dimen292
-\realshift=\dimen293
-\realshift=\dimen294
 
 [1
 
 {C:/Users/germa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Generador_de_rampa.aux) ) 
+(Restador.aux) ) 
 Here is how much of TeX's memory you used:
- 35596 strings out of 492895
- 838631 string characters out of 3133479
- 964704 words of memory out of 3000000
- 39153 multiletter control sequences out of 15000+200000
- 536506 words of font info for 40 fonts, out of 3000000 for 9000
+ 35148 strings out of 492895
+ 829819 string characters out of 3133479
+ 937163 words of memory out of 3000000
+ 38716 multiletter control sequences out of 15000+200000
+ 536504 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,69p,441b,1011s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on Generador_de_rampa.pdf (1 page, 52764 bytes).
+ 62i,7n,69p,431b,857s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Restador.pdf (1 page, 51762 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
