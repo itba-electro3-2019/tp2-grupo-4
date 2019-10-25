@@ -1,6 +1,9 @@
 \section{Ejercicio 8}
 En la naturaleza la informaci\'on est\'a siempe caracterizada por señales anal\'ogicas. Con el fin de manipular e interpretar dichas señales mediante un procesador o algun tipo de circuto l\'ogico es necesario convertir las señales anal\'ogicas (continuas en el tiempo) a señales digitales (discretas en el tiempo). Un conversor anal\'ogico digital (ADC por sus sigas en ingl\'es), cumple la funci\'on de digitaizar señales continuas en el tiempo. Se manejan dos par\'ametros en la conversi\'on de señales: el Sampling Rate ($f_s$) y el Sampling Precision ($N$). El primero representa la cantidad de muestras que se toman por segundo, mientras que el segundo par\'ametro define la cuantizaci\'on en amplitud de la señal. En el caso ideal tanto el Sampling Rate como el Sampling Precsion deber\'ian ser infinitos y as\'i se obtendr\'ia la señ al original. Sin embargo, ni existe memoria suficiente para almacenar una cantidad infinita de puntos ni ser\'ia pr\'actico su almaceamiento. En el caso de estudio la señal que debe digitalizarse es la salida de un potenci\'ometro presente en un Joystick anal\'ogico. Con ese fin se decidió separar el diseño en varios bloques que cumplieran tareas específicas, facilitando entre otras la implementación y el testo. Los bloques utilizados fueron un generador de rampa, un comparador, un generador de clock y un contador. Su propuesta de diseño e implementación se presentan a continuación. \par
 
+
+%%%Agregar diagrama de boques con partes del diseño.
+
 \subsection{Diseño}
 
 \subsubsection{Generador de Rampa}
