@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  2 NOV 2019 19:10
 entering extended mode
 **./Comparador.tex
 (Comparador.tex
@@ -834,28 +834,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
+\realshift=\dimen281
+\realshift=\dimen282
 
 [1
 
 {C:/Users/germa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Comparador.aux) ) 
 Here is how much of TeX's memory you used:
- 34844 strings out of 492895
- 822076 string characters out of 3133479
- 927351 words of memory out of 3000000
- 38412 multiletter control sequences out of 15000+200000
+ 35025 strings out of 492895
+ 826465 string characters out of 3133479
+ 930351 words of memory out of 3000000
+ 38593 multiletter control sequences out of 15000+200000
  536504 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,69p,433b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,69p,433b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mbsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Comparador.pdf (1 page, 50447 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Comparador.pdf (1 page, 59493 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

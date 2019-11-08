@@ -1,0 +1,4 @@
+Remove Pin=U1B-3 From Net=B1
+Remove Pin=U1B-4 From Net=!B1
+Remove Pin=U1D-8 From Net=!LE
+Remove Pin=U1D-9 From Net=LE

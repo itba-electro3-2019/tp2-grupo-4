@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Removed Member From Class: ClassName=Parte_digital Member=U?
+Added Component: Designator=Not(DIP14)
+Added Pin To Net: NetName=C1 Pin=Not-1
+Added Pin To Net: NetName=!C1 Pin=Not-2
+Added Pin To Net: NetName=B1 Pin=Not-3
+Added Pin To Net: NetName=!B1 Pin=Not-4
+Added Pin To Net: NetName=GND Pin=Not-7
+Added Pin To Net: NetName=VDD Pin=Not-14
+Added Member To Class: ClassName=Parte_digital Member=Component Not CD4069UBCM
+Added Room: Name=Parte_digital

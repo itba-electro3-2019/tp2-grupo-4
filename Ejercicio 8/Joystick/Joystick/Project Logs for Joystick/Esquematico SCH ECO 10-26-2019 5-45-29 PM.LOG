@@ -1,0 +1,21 @@
+Change Component Part ID : Designator=A1 Old Part ID =1 New Part ID =2
+Change Component Part ID : Designator=A1 Old Part ID =2 New Part ID =1
+Change Component Designator: Old Designator=Alimentacion New Designator=Alimentacion1
+Change Component Designator: Old Designator=C1 New Designator=C3
+Change Component Designator: Old Designator=C2 New Designator=C1
+Change Component Designator: Old Designator=C3 New Designator=C2
+Change Component Designator: Old Designator=C4 New Designator=C6
+Change Component Designator: Old Designator=C6 New Designator=C4
+Change Component Designator: Old Designator=Conversor New Designator=Conversor1
+Change Component Designator: Old Designator=Pines New Designator=Pines1
+Change Component Designator: Old Designator=R2 New Designator=R1
+Change Component Designator: Old Designator=R4 New Designator=R7
+Change Component Designator: Old Designator=R5 New Designator=R4
+Change Component Designator: Old Designator=R6 New Designator=R5
+Change Component Designator: Old Designator=R7 New Designator=R2
+Change Component Designator: Old Designator=R8 New Designator=R6
+Change Component Designator: Old Designator=R9 New Designator=R8
+Change Component Designator: Old Designator=R10 New Designator=R9
+Change Component Designator: Old Designator=R11 New Designator=R10
+Change Component Designator: Old Designator=Rp New Designator=Rp1
+Change Component Designator: Old Designator=T! New Designator=T!1

@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=GND Pin=NOT-7
+Removed Pin From Net: NetName=VDD Pin=NOT-14
+Removed Pin From Net: NetName=B1 Pin=U1-3
+Removed Pin From Net: NetName=!B1 Pin=U1-4
+Removed Pin From Net: NetName=GND Pin=U1-5
+Removed Pin From Net: NetName=GND Pin=U1-7
+Removed Pin From Net: NetName=!C1 Pin=U1-8
+Removed Pin From Net: NetName=C1 Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U1-11
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=VDD Pin=U1-14
+Removed Member From Class: ClassName=Parte_digital Member=NOT
+Removed Member From Class: ClassName=Parte_digital Member=U1
+Added Component: Designator=U?(N14A)
+Added Component: Designator=U?(N14A)
+Added Component: Designator=U?(N14A)
+Added Component: Designator=U?(N14A)
+Added Component: Designator=U?(N14A)
+Added Component: Designator=U?(N14A)
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Member To Class: ClassName=Parte_digital Member=Component U? CD4069UBCN

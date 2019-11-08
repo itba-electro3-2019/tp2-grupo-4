@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  24 OCT 2019 03:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  2 NOV 2019 19:09
 entering extended mode
 **./Generador_de_rampa.tex
 (Generador_de_rampa.tex
@@ -872,27 +872,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \realshift=\dimen290
 \realshift=\dimen291
 \realshift=\dimen292
-\realshift=\dimen293
-\realshift=\dimen294
 
 [1
 
 {C:/Users/germa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Generador_de_rampa.aux) ) 
 Here is how much of TeX's memory you used:
- 35596 strings out of 492895
- 838631 string characters out of 3133479
- 964704 words of memory out of 3000000
- 39153 multiletter control sequences out of 15000+200000
+ 35532 strings out of 492895
+ 836926 string characters out of 3133479
+ 960745 words of memory out of 3000000
+ 39089 multiletter control sequences out of 15000+200000
  536506 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,69p,441b,1011s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,69p,441b,839s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 mi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on Generador_de_rampa.pdf (1 page, 52764 bytes).
+Output written on Generador_de_rampa.pdf (1 page, 52225 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=U? Old Footprint=M14A_N New Footprint=DIP14
+Added Member To Class: ClassName=Parte_digital Member=Component U? CD4069UBCM
+Added Room: Name=Parte_digital

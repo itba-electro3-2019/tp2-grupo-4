@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Removed Pin From Net: NetName=VDD Pin=U?-14
+Change Component DesignItemId : Designator=U? Old DesignItemId=CD4069UBCN New DesignItemId=CD4069UBCM
+Change Component Footprint: Designator=U? Old Footprint=N14A New Footprint=M14A_N
+Change Component Comment : Designator=U? Old Comment=CD4069UBCN New Comment=CD4069UBCM
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Component: Designator=U?(M14A_N)
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=VDD Pin=U?-14
+Added Pin To Net: NetName=NetU?_1 Pin=U?-1
+Added Pin To Net: NetName=NetU?_1 Pin=U?-9
+Added Pin To Net: NetName=NetU?_1 Pin=U?-11
+Added Pin To Net: NetName=NetU?_1 Pin=U?-13
+Added Net: Name=NetU?_1
+Added Pin To Net: NetName=NetU?_2 Pin=U?-2
+Added Pin To Net: NetName=NetU?_2 Pin=U?-11
+Added Net: Name=NetU?_2

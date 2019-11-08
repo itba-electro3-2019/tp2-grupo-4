@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=R19 Old Footprint=AXIAL-0.3 New Footprint=RES400
+Change Component Footprint: Designator=R20 Old Footprint=AXIAL-0.3 New Footprint=RES400
+Change Component Designator: OldDesignator=Decoder 1 NewDesignator=Decoder 2
+Change Net Name : Old Net Name=NetDecoder 1_9 New Net Name=NetDecoder 2_9
+Change Net Name : Old Net Name=NetDecoder 1_10 New Net Name=NetDecoder 2_10
+Change Net Name : Old Net Name=NetDecoder 1_11 New Net Name=NetDecoder 2_11
+Change Net Name : Old Net Name=NetDecoder 1_12 New Net Name=NetDecoder 2_12
+Change Net Name : Old Net Name=NetDecoder 1_13 New Net Name=NetDecoder 2_13
+Change Net Name : Old Net Name=NetDecoder 1_14 New Net Name=NetDecoder 2_14
+Change Net Name : Old Net Name=NetDecoder 1_15 New Net Name=NetDecoder 2_15
+Added Room: Name=Parte_digital

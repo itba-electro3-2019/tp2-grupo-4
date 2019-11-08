@@ -1,0 +1,36 @@
+\BOOKMARK [1][-]{section*.2}{Ejercicio 1}{}% 1
+\BOOKMARK [2][-]{section*.3}{Par\341metros de las compuertas l\363gicas}{section*.2}% 2
+\BOOKMARK [3][-]{section*.4}{Tensi\363n de salida y entrada}{section*.3}% 3
+\BOOKMARK [3][-]{section*.6}{Noise Margin}{section*.3}% 4
+\BOOKMARK [3][-]{section*.7}{Tiempo de propagaci\363n}{section*.3}% 5
+\BOOKMARK [3][-]{section*.9}{Tiempo de transici\363n}{section*.3}% 6
+\BOOKMARK [3][-]{section*.11}{Corriente de salida}{section*.3}% 7
+\BOOKMARK [2][-]{section*.12}{Tecnolog\355as de las compuertas l\363gicas}{section*.2}% 8
+\BOOKMARK [3][-]{section*.13}{RTL}{section*.12}% 9
+\BOOKMARK [3][-]{section*.16}{TTL}{section*.12}% 10
+\BOOKMARK [3][-]{section*.19}{MOS}{section*.12}% 11
+\BOOKMARK [3][-]{section*.22}{Comparaci\363n entre tecnolog\355as}{section*.12}% 12
+\BOOKMARK [1][-]{section*.24}{Ejercicio 2}{}% 13
+\BOOKMARK [2][-]{section*.25}{Introducci\363n a las tecnolog\355as}{section*.24}% 14
+\BOOKMARK [2][-]{section*.27}{Compatibilidad entre LS y HC}{section*.24}% 15
+\BOOKMARK [2][-]{section*.29}{Compatibilidad entre LS y HCT}{section*.24}% 16
+\BOOKMARK [2][-]{section*.31}{Fanout}{section*.24}% 17
+\BOOKMARK [1][-]{section*.32}{Ejercicio 5}{}% 18
+\BOOKMARK [2][-]{section*.33}{Entrada flotante}{section*.32}% 19
+\BOOKMARK [2][-]{section*.36}{Compatibilidad entre TTL y CMOS}{section*.32}% 20
+\BOOKMARK [1][-]{section*.41}{Ejercicio 6}{}% 21
+\BOOKMARK [2][-]{section*.42}{Latch SR}{section*.41}% 22
+\BOOKMARK [2][-]{section*.45}{Flip-flop D}{section*.41}% 23
+\BOOKMARK [2][-]{section*.48}{Mediciones}{section*.41}% 24
+\BOOKMARK [1][-]{section*.52}{Ejercicio 7}{}% 25
+\BOOKMARK [2][-]{section*.53}{Contador asincr\363nico}{section*.52}% 26
+\BOOKMARK [2][-]{section*.55}{Contador sincr\363nico}{section*.52}% 27
+\BOOKMARK [2][-]{section*.57}{Mediciones}{section*.52}% 28
+\BOOKMARK [2][-]{section*.64}{Conclusiones}{section*.52}% 29
+\BOOKMARK [1][-]{section*.65}{Ejercicio 8}{}% 30
+\BOOKMARK [2][-]{section*.66}{Dise\361o}{section*.65}% 31
+\BOOKMARK [3][-]{section*.67}{Generador de Rampa}{section*.66}% 32
+\BOOKMARK [3][-]{section*.72}{Comparador}{section*.66}% 33
+\BOOKMARK [3][-]{section*.74}{Clock}{section*.66}% 34
+\BOOKMARK [3][-]{section*.77}{Contador}{section*.66}% 35
+\BOOKMARK [2][-]{section*.80}{Conclusiones}{section*.65}% 36

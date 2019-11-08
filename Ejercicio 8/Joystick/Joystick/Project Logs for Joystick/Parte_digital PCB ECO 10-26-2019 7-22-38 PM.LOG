@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=E_CLK Pin=Decena1-1
+Removed Pin From Net: NetName=E_2C Pin=Decena1-2
+Removed Pin From Net: NetName=RST Pin=Decena1-7
+Removed Pin From Net: NetName=GND Pin=Decena1-8
+Removed Pin From Net: NetName=VDD Pin=Decena1-16
+Removed Member From Class: ClassName=Parte_digital Member=Decena1
+Added Pin To Net: NetName=E_CLK Pin=Unidad1-9
+Added Pin To Net: NetName=E_2C Pin=Unidad1-10
+Added Pin To Net: NetName=RST Pin=Unidad1-15
+Added Pin To Net: NetName=NetDecoder 2_1 Pin=Decoder 2-1
+Added Pin To Net: NetName=NetDecoder 2_1 Pin=Unidad1-12
+Added Net: Name=NetDecoder 2_1
+Added Pin To Net: NetName=NetDecoder 2_2 Pin=Decoder 2-2
+Added Pin To Net: NetName=NetDecoder 2_2 Pin=Unidad1-13
+Added Net: Name=NetDecoder 2_2
+Added Pin To Net: NetName=NetDecoder 2_6 Pin=Decoder 2-6
+Added Pin To Net: NetName=NetDecoder 2_6 Pin=Unidad1-14
+Added Net: Name=NetDecoder 2_6
+Added Pin To Net: NetName=NetDecoder 2_7 Pin=Decoder 2-7
+Added Pin To Net: NetName=NetDecoder 2_7 Pin=Unidad1-11
+Added Net: Name=NetDecoder 2_7
+Added Room: Name=Parte_digital

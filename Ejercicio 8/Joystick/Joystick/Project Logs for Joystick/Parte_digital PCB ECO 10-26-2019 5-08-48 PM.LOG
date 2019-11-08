@@ -1,0 +1,132 @@
+Removed Pin From Net: NetName=!LE Pin=Decoder 1-5
+Removed Pin From Net: NetName=!LE Pin=Decoder1-5
+Change Component DesignItemId : Designator=Decoder 1 Old DesignItemId=IC_DIP16 New DesignItemId=CD4511
+Change Component DesignItemId : Designator=Decoder1 Old DesignItemId=IC_DIP16 New DesignItemId=CD4511
+Change Component Comment : Designator=Decoder 1 Old Comment=IC_DIP16 New Comment=CD4511
+Change Component Description : Designator=Decoder 1 Old Description= New Description=BCD to 7 SEGMENTOS
+Change Component Description : Designator=Decoder1 Old Description= New Description=BCD to 7 SEGMENTOS
+Added Component: Designator=A1(N014)
+Added Component: Designator=A2(JG008)
+Added Component: Designator=A3(JG008)
+Added Component: Designator=Alimentacion(BORNERA2)
+Added Component: Designator=C1(CAP100)
+Added Component: Designator=C2(CAP100)
+Added Component: Designator=C3(CAP100)
+Added Component: Designator=C4(CAP100)
+Added Component: Designator=C5(CAP100)
+Added Component: Designator=C6(CAP100)
+Added Component: Designator=Conversor(TO-220 V)
+Added Component: Designator=G1(DIP8)
+Added Component: Designator=Pines(SIP4)
+Added Component: Designator=R2(AXIAL-0.3)
+Added Component: Designator=R3(AXIAL-0.3)
+Added Component: Designator=R4(AXIAL-0.3)
+Added Component: Designator=R5(AXIAL-0.3)
+Added Component: Designator=R6(AXIAL-0.3)
+Added Component: Designator=R7(AXIAL-0.3)
+Added Component: Designator=R8(AXIAL-0.3)
+Added Component: Designator=R9(AXIAL-0.3)
+Added Component: Designator=R10(AXIAL-0.3)
+Added Component: Designator=R11(AXIAL-0.3)
+Added Component: Designator=Rp(POTENCIOMETRO)
+Added Component: Designator=T!(TO92)
+Added Pin To Net: NetName=VCC Pin=A1-4
+Added Pin To Net: NetName=GND Pin=A1-10
+Added Pin To Net: NetName=GND Pin=A1-11
+Added Pin To Net: NetName=GND Pin=A1-12
+Added Pin To Net: NetName=GND Pin=A2-1
+Added Pin To Net: NetName=GND Pin=A2-4
+Added Pin To Net: NetName=GND Pin=A3-1
+Added Pin To Net: NetName=GND Pin=A3-4
+Added Pin To Net: NetName=GND Pin=Alimentacion-1
+Added Pin To Net: NetName=VCC Pin=Alimentacion-2
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VCC Pin=Conversor-1
+Added Pin To Net: NetName=GND Pin=Conversor-2
+Added Pin To Net: NetName=GND Pin=G1-1
+Added Pin To Net: NetName=GND Pin=G1-3
+Added Pin To Net: NetName=VCC Pin=G1-4
+Added Pin To Net: NetName=VCC Pin=G1-8
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=5.15 Pin=A3-3
+Added Pin To Net: NetName=5.15 Pin=R10-1
+Added Pin To Net: NetName=5.15 Pin=R11-2
+Added Net: Name=5.15
+Added Pin To Net: NetName=ENABLE Pin=A2-7
+Added Pin To Net: NetName=ENABLE Pin=Pines-2
+Added Net: Name=ENABLE
+Added Pin To Net: NetName=JOYSTICK Pin=A2-2
+Added Pin To Net: NetName=JOYSTICK Pin=C6-1
+Added Pin To Net: NetName=JOYSTICK Pin=Pines-3
+Added Net: Name=JOYSTICK
+Added Pin To Net: NetName=NetA1_1 Pin=A1-1
+Added Pin To Net: NetName=NetA1_1 Pin=A1-2
+Added Pin To Net: NetName=NetA1_1 Pin=R6-2
+Added Net: Name=NetA1_1
+Added Pin To Net: NetName=NetA1_3 Pin=A1-3
+Added Pin To Net: NetName=NetA1_3 Pin=C3-1
+Added Pin To Net: NetName=NetA1_3 Pin=G1-2
+Added Pin To Net: NetName=NetA1_3 Pin=G1-6
+Added Pin To Net: NetName=NetA1_3 Pin=G1-7
+Added Pin To Net: NetName=NetA1_3 Pin=T!-2
+Added Net: Name=NetA1_3
+Added Pin To Net: NetName=NetA1_5 Pin=A1-5
+Added Pin To Net: NetName=NetA1_5 Pin=R6-1
+Added Pin To Net: NetName=NetA1_5 Pin=R8-2
+Added Net: Name=NetA1_5
+Added Pin To Net: NetName=NetA1_6 Pin=A1-6
+Added Pin To Net: NetName=NetA1_6 Pin=R5-1
+Added Pin To Net: NetName=NetA1_6 Pin=R7-2
+Added Net: Name=NetA1_6
+Added Pin To Net: NetName=NetA1_8 Pin=A1-8
+Added Pin To Net: NetName=NetA1_8 Pin=A1-9
+Added Net: Name=NetA1_8
+Added Pin To Net: NetName=NetA1_13 Pin=A1-13
+Added Pin To Net: NetName=NetA1_13 Pin=A1-14
+Added Net: Name=NetA1_13
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=G1-5
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=T!-3
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=Rp-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R4-2
+Added Pin To Net: NetName=NetR3_1 Pin=T!-1
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=R10-2
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=RAMPA Pin=A1-7
+Added Pin To Net: NetName=RAMPA Pin=A2-3
+Added Pin To Net: NetName=RAMPA Pin=A3-2
+Added Pin To Net: NetName=RAMPA Pin=Pines-1
+Added Pin To Net: NetName=RAMPA Pin=R7-1
+Added Net: Name=RAMPA
+Added Pin To Net: NetName=RESET Pin=A3-7
+Added Pin To Net: NetName=RESET Pin=Pines-4
+Added Net: Name=RESET
+Added Pin To Net: NetName=V5 Pin=A2-8
+Added Pin To Net: NetName=V5 Pin=A3-8
+Added Pin To Net: NetName=V5 Pin=C5-1
+Added Pin To Net: NetName=V5 Pin=Conversor-3
+Added Pin To Net: NetName=V5 Pin=R3-2
+Added Pin To Net: NetName=V5 Pin=R5-2
+Added Pin To Net: NetName=V5 Pin=Rp-2
+Added Net: Name=V5
+Added Class: Name=Esquematico
+Added Room: Name=Esquematico
+Added Room: Name=Parte_digital
