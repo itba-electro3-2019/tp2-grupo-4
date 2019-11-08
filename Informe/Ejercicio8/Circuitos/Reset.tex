@@ -22,12 +22,18 @@
 
 (opamp.out) -- ++ (3,0)
 
+(opamp.out) ++ (1.5,0) to[vR,a=$100\,K\Omega$,l=$R_{pullup}$] (2.7,1.5)
+(2.7,1.5) node[above] {$5\,V$}
+(2.7,1.5) node[ocirc] {}
 
+(opamp.down) ++ (0,-1.5) node[above] {$LM339$}
+(opamp.out) ++ (1.5,0) to[C,a=$15\,pF$,l=$C_L$,*-] (2.7,-1.5)
+(2.7,-1.5) node[ground] {}
 
 (opamp.-) --  ++ (-2,0) node[ocirc]{}
-(opamp.+) --  ++ (-2,0) node[ocirc]{}
-(opamp.-) --  ++ (-2,0) node[above left]{$5.15\,V$}
-(opamp.+) --  ++ (-2,0) node[above left]{$Rampa$}
+
+(opamp.-) --  ++ (-2,0) node[above left]{$Rampa$}
+(opamp.+) --  ++ (-2,0) node[ground]{}
 
 ;\end{circuitikz}
 

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  8 NOV 2019 07:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.21)  8 NOV 2019 13:01
 entering extended mode
-**./Restador.tex
-(Restador.tex
+**./Enable.tex
+(Enable.tex
 LaTeX2e <2018-12-01>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/standalone\standalone.cls"
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
@@ -679,8 +679,8 @@ Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator.sty"
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 )))
-(Restador.aux)
-\openout1 = `Restador.aux'.
+(Enable.aux)
+\openout1 = `Enable.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -834,34 +834,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 5.
-\realshift=\dimen281
-\realshift=\dimen282
-\realshift=\dimen283
-\realshift=\dimen284
 
 [1
 
 {C:/Users/germa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Restador.aux) ) 
+(Enable.aux) ) 
 Here is how much of TeX's memory you used:
- 35149 strings out of 492895
- 829837 string characters out of 3133479
- 937574 words of memory out of 3000000
- 38717 multiletter control sequences out of 15000+200000
- 536504 words of font info for 39 fonts, out of 3000000 for 9000
+ 34826 strings out of 492895
+ 822034 string characters out of 3133479
+ 924339 words of memory out of 3000000
+ 38402 multiletter control sequences out of 15000+200000
+ 534093 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,69p,431b,859s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb>
-Output written on Restador.pdf (1 page, 68315 bytes).
+ 62i,7n,69p,429b,681s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Enable.pdf (1 page, 22813 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 17 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

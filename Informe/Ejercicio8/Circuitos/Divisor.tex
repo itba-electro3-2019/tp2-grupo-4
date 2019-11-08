@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage[american,oldvoltagedirection,siunitx]{circuitikz}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{circuitikz}[european voltages, scale=1]\draw
+
+
+(0,0) to[R,l=$1\,K\Omega$] (0,-2)
+to[R,l=$1\,K\Omega$] (0,-4)
+to[vR,a=$R_1$,l=$1\,K\Omega$,*-] (0,-6)
+
+(0,-6) node[ground]{}
+(0,0) node[above]{$15\,V$}
+(0,-4) node[right]{$V_{ref}$}
+
+;\end{circuitikz}
+
+
+ 
+\end{document}

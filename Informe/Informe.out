@@ -29,8 +29,11 @@
 \BOOKMARK [2][-]{section*.64}{Conclusiones}{section*.52}% 29
 \BOOKMARK [1][-]{section*.65}{Ejercicio 8}{}% 30
 \BOOKMARK [2][-]{section*.66}{Dise\361o}{section*.65}% 31
-\BOOKMARK [3][-]{section*.67}{Generador de Rampa}{section*.66}% 32
-\BOOKMARK [3][-]{section*.72}{Comparador}{section*.66}% 33
-\BOOKMARK [3][-]{section*.74}{Clock}{section*.66}% 34
-\BOOKMARK [3][-]{section*.77}{Contador}{section*.66}% 35
-\BOOKMARK [2][-]{section*.80}{Conclusiones}{section*.65}% 36
+\BOOKMARK [3][-]{section*.67}{Consideraciones generales}{section*.66}% 32
+\BOOKMARK [3][-]{section*.68}{Generador de Rampa}{section*.66}% 33
+\BOOKMARK [3][-]{section*.74}{Tasa de refresco}{section*.66}% 34
+\BOOKMARK [3][-]{section*.76}{Contador de posici\363n}{section*.66}% 35
+\BOOKMARK [2][-]{section*.78}{M\351todos de control}{section*.65}% 36
+\BOOKMARK [3][-]{section*.79}{Enable contador de posici\363n}{section*.78}% 37
+\BOOKMARK [3][-]{section*.82}{Reset contador de posici\363n}{section*.78}% 38
+\BOOKMARK [2][-]{section*.84}{Conclusiones}{section*.65}% 39

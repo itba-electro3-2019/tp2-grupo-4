@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage[american,oldvoltagedirection,siunitx]{circuitikz}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{circuitikz} 
+\draw
+(0,2)         node (myand1) [xshift=1cm,not port]           {}
+(myand1.out)  node      [anchor=south west]             {\it LE/Strobe}
+(myand1.in) node (A1)     [anchor=south west,xshift=-2cm]           {EContador}
+
+(myand1.in) -- ++ (-1,0)
+(myand1.out) -- ++ (1,0)
+;\end{circuitikz}
+
+ 
+\end{document}
